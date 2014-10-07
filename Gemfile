@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'bower-rails'
+gem 'angular-rails-templates'
 
 gem 'sass', '3.2.19'
 
@@ -49,6 +50,8 @@ group :test, :development do
   gem "capybara"
   gem "database_cleaner"
   gem "selenium-webdriver"
+  gem 'teaspoon'
+  gem 'phantomjs'
 end
 
 gem "foreman"
